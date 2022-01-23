@@ -1,0 +1,8 @@
+import { createApp } from '/node_modules/.vite/vue.js?v=fe4c3678'
+import App from '/src/App.vue?t=1642972559222'
+import '/src/index.css?t=1642973244466'
+import router from '/src/router/index.js?t=1642973244466'
+
+const app = createApp(App)
+app.use(router)
+app.mount('#app')
